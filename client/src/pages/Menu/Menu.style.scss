@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "contb";
+    src: url("../../../public/contb.woff") format("woff");
+}
+
+.CabinetSection{
+
+    justify-content: center;
+    background-image:url("../../../public/menu-bg.jpg")
+}
+.menu-item-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.menu-item{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 18vw;
+    height: 20vh;
+    padding: 8px;
+    border: 4px solid #b1b1b1;
+    border-radius: 10px;
+}
+
+.menu-title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

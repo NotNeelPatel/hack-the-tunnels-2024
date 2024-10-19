@@ -9,14 +9,13 @@ interface CabinetSectionProps {
 function CabinetSection({ title, lineItems }: CabinetSectionProps) {
   return (
     <div className="CabinetSection">
-      <img src="cabinet.gif"></img>
       <div>
-        <div>{title}</div>
-        <ul>
+        <div className="menu-title">{title}</div>
+        <div className="menu-item-container">
           {lineItems.map((item, index) => (
-            <li key={index}>{item}</li>
+            <div className="menu-item" key={index}>{item}</div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
