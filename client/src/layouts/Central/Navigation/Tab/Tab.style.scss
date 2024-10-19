@@ -6,21 +6,16 @@
   border-radius: 0.5rem;
 
   &__label {
-    background-color: #666666;
-    padding-right: 0.1rem;
-    padding-left: 0.1rem;
-    border-top-left-radius: 0.2rem;
-    border-top-right-radius: 0.2rem;
-    color: white;
-  }
-
-  &__left {
-    border-top: 1.3rem solid transparent;
-    border-right: 0.4rem solid #666666;
-  }
-
-  &__right {
-    border-top: 1.3rem solid transparent;
-    border-left: 0.4rem solid #666666;
+    border: solid 2px #68bad5;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(223,221,224,1) 36%, rgba(255,255,255,1) 42%, rgba(223,221,224,1) 98%, rgba(88,199,235,1) 100%); 
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 10px 30px 10px;
+    margin: 0 10px;
+    text-align: center;
+    &:hover {
+      background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(193,191,194,1) 36%, rgba(220,220,220,1) 42%, rgba(193,191,194,1) 98%, rgba(88,179,208,1) 100%);
+    }
   }
 }

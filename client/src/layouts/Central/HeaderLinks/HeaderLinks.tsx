@@ -6,9 +6,10 @@ function HeaderLinks() {
   const { logout } = useAccountContext();
   return (
     <div className="HeaderLinks">
-      <Link to={"/"}>Return To Menu</Link>|<Link to={"/sitemap"}>Site Map</Link>
-      |<Link to={"/help"}>Help</Link>|
-      <Link to={"/login"}>
+      <img src="menu.png"/><Link to={"/"}>Return To Menu</Link>|
+      <img src="home.png"/><Link to={"/sitemap"}>Site Map</Link>|
+      <img src="help.png"/><Link to={"/help"}>Help</Link>|
+      <img src="logout.png"/><Link to={"/login"}>
         <span onClick={() => logout()}>Logout</span>
       </Link>
     </div>

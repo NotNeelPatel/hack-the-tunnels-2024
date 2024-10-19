@@ -11,6 +11,7 @@
       sans-serif;
 
     &__title {
+      margin-left: 10px;
       margin-top: 1.67rem;
       margin-bottom: 1.5rem;
       font-weight: normal;
@@ -20,7 +21,7 @@
     &__footer {
       font-weight: bold;
       font-size: 80%;
-      text-align: left;
+      text-align: center;
 
       &__release {
         text-transform: uppercase;

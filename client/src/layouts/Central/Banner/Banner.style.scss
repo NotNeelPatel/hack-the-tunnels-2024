@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   height: 3rem;
-  background-color: $theme;
+  background: rgb(207,208,216);
+  background: linear-gradient(180deg, rgba(207,208,216,1) 0%, rgba(207,208,216,1) 66%, rgba(158,160,161,1) 100%); 
   gap: 2rem;
 
   img {
@@ -22,7 +23,7 @@
 
   &__title {
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: #727377;
     font-size: 1.6rem;
   }
 }

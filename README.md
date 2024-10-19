@@ -544,3 +544,6 @@ The `TimetableEvent` model represents the association of a scheduled event with 
 - **timetable**: Many-to-one relationship with the `Timetable` model.
 - **createdAt**: Timestamp indicating when the timetable event was created.
 - **updatedAt**: Timestamp automatically updated when the timetable event information changes.
+
+Completed Challenges: 
+0, 1, 23
