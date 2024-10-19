@@ -546,4 +546,4 @@ The `TimetableEvent` model represents the association of a scheduled event with 
 - **updatedAt**: Timestamp automatically updated when the timetable event information changes.
 
 Completed Challenges: 
-0, 1, 23
+0, 1, 3, 4, 23
